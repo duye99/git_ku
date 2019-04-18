@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    <h2 style="color: gainsboro">添加</h2>
+    <form action="add.php" method="post">
+        <table>
+            <tr>
+                <td>客户名称:</td>
+                <td><input type="text" name="name" placeholder="请输入客户名称"></td>
+            </tr>
+            <tr>
+                <td>负责人:</td>
+                <td><input type="text" name="fz"></td>
+            </tr>
+            <tr>
+                <td>公司电话:</td>
+                <td><input type="text" name="tell"></td>
+            </tr>
+            <tr>
+                <td>概要:</td>
+                <td><input type="text" name="title"></td>
+            </tr>
+            <tr>
+                <td>状态:</td>
+                <td><select name="stat" id="">
+                    <option value="未分配">未分配</option>
+                    <option value="已分配">已分配</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="but" value="提交"></td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>
+<script src="jquery-3.3.1.js"></script>
+<script>
+    $('.but').click(function () {
+
+    })
+</script>
